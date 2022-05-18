@@ -1,18 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  author: MyString
-  title: MyString
-  publisher: MyString
+  author: 'Antoine de Saint-Exupéry'
+  title: 'El Principito'
+  publisher: Emecé
   publishing_date: 2022-05-13
   publishing_country: MyString
   topic: MyString
   description: MyText
-  language: MyString
+  language: 'es'
   dewey_classification: MyString
   adquisition_date: 2022-05-13
   copies: 1
   availability: MyString
+  isbn: '6070730534'
 
 two:
   author: MyString

@@ -1,4 +1,5 @@
 class Book < ApplicationRecord
+    belongs_to :collection
     
     validates :author, presence: { message: "El autor es obligatorio, ingrese Anónimo en caso de ser desconocido"}
     validates :title, presence:true

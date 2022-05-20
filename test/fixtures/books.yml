@@ -14,6 +14,7 @@ one:
   copies: 1
   availability: MyString
   isbn: '6070730534'
+  collection_id: 1
 
 two:
   author: MyString
@@ -28,3 +29,4 @@ two:
   adquisition_date: 2022-05-13
   copies: 1
   availability: MyString
+  collection_id: 2

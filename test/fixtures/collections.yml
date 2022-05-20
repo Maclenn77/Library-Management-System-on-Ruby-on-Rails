@@ -1,9 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 collection_one:
+  id: 1
   name: 'Children collection'
   description: 'Lorem ipsum lorem ipso'
 
 collection_two:
+  id: 2
   name: 'Science Collection'
   description: 'Lorem ipsum lorem ipso'

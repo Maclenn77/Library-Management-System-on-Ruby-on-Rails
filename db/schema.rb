@@ -10,19 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_19_013026) do
+ActiveRecord::Schema.define(version: 2022_05_19_052946) do
 
   # These are extensions that must be enabled in order to support this database
+  enable_extension "citext"
   enable_extension "plpgsql"
 
   create_table "books", force: :cascade do |t|
-    t.string "author"
-    t.string "title"
-    t.string "publisher"
+    t.citext "author"
+    t.citext "title"
+    t.citext "publisher"
     t.date "publishing_date"
     t.string "publishing_country"
-    t.string "topic"
-    t.text "description"
+    t.citext "topic"
+    t.citext "description"
     t.string "language"
     t.string "dewey_classification"
     t.date "adquisition_date"
